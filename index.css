@@ -83,6 +83,7 @@ header{
 main{
     width: 100%;
     height: auto;
+    
 }
 .main-section{
     display: flex;
@@ -253,17 +254,246 @@ main{
 }
 
 /* section-4 end */
+
+
+/* section-5 start */
 .section-5{
-    width: 50rem;
-    height: 25rem;
-    background-color:black;
+    width: 80rem;
+    height: 28rem;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 8rem;
+    
 }
+.section-5>a{
+    font-size: 2rem;
+    font-weight: 700;
+    color: blue;
+    text-decoration: none;
+}
+.section-5>p{
+    font-size: larger;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 33rem;
+}
+.section-5-fig{
+    width: 100%;
+    height: 19rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-5-fig>img{
+    width: 16rem;
+    height: auto;
+}
+/* section-5 end */
+
+/* section-6 start */
 .section-6{
+    width: 80rem;
+    height: 22rem;
+    background-color:pink;
+    background-image: url('../Assignment-1/Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 5rem 8rem 5rem 8rem;
+    border-radius:2rem;
+}
+.section-6>h1{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color:black;
+}
+.section-6>p{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color:black;
+    margin-bottom: 3rem;
+}
+.section-6>input{
+    width: 40%;
+    height: auto;
+    font-size: 1.5rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.section-6>button{
+    background-color:gray;
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 0.4rem;
+    width: auto;
+    height: auto;
+    margin-left: 1rem;
+}
+.section-6>button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+/* section-6 end*/
+
+/* section-7 start */
+.section-7{
+    width: 99vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0rem 0 10rem;
+}
+.section-7-about{
+    width: 50rem;
+    height: 30rem;
+    text-align: start;
+    padding: 4rem 5rem;
+}
+.section-7-about>h1{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.section-7-about>p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: normal;
+}
+.section-7-img{
+    width: 80rem;
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 4.5rem;
+}
+.section-7-img>img{
+    width: 12rem;
+    height: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.5rem;
+}
+.section-7-about>a>img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+}
+/* section-7 end */
+
+/* main style end */
+
+/* footer style start */
+footer{
+    width: 99vw;
+    height: 60rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background-color: black;
+}
+.footer-left{
+    width: 50rem;
+    height: 15rem;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 10rem;
+}
+.footer-left>h1{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: aliceblue;
+}
+
+.footer-left>h2{
+    line-height: 2rem;
+    color: aliceblue;
+}
+.footer-left>p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.footer-right{
     width: 50rem;
     height: 25rem;
-    background-color:pink;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-left: 18rem;
+}
+.footer-right>h1{
+    color: aliceblue;
+    margin-bottom: 1rem;
+}
+form{
+    width: 60rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: start;
+
+}
+form>label{
+    margin-right: 8rem;
+    font-size: 2rem;
+    color: aliceblue;
+}
+form>label>input{
+    width: 100%;
+    height: auto;
+    padding: 0.2rem;
+    font-size: large;
+}
+form>label>select{
+    width: 15%;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    border: none;
+    
+}
+form>label>select>option{
+    padding: 0.5rem;
+    text-align: center;
+}
+form>fieldset{
+    width: 87%;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+form>fieldset>label{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+form>fieldset>label>input{
+    width: 1rem;
+    height: 1rem;
+}
+
+form>button{
+    width: 5rem;
+    height: auto;
+    padding: 0.5rem;
+    border: none;
+    font-size: larger;
+    background-color: tomato;
+    border-radius: 1rem;
+}
+form>button:hover{
+    color: aliceblue;
+    background-color: green;
 }
 
 
-
-/* main style start */
+/* footer style end */
